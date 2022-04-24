@@ -1,0 +1,232 @@
+/*>================>
+common css
+>==================>*/
+body{
+   color : #e7e7e7;
+   font-size: 16px;
+   font-family: Minion Pro;
+   line-height: 1.3em;
+}
+.container{
+    width:96%;
+    max-width:1000px;
+    margin: 0 auto;
+}
+image{
+    width:100%;
+    height:auto;
+}
+/*>================>
+header area css
+>==================>*/
+
+.header_area{
+width:100%;
+clear:both;
+opacity: 0.4;
+z-index: 2;
+position: relative;
+}
+.inner_header_area{
+    background:#212224;
+}
+.top_header_area{
+    width: 100%;
+  padding: 20px 0;
+}
+.inner_top_header_area{
+    overflow: hidden;
+ 
+}
+.search_area{
+    float:right;
+}
+.search_area form{
+    float: right;
+    background: #000;
+    max-width: 400px;
+    width: 100%;
+    padding: 2%;
+    border-radius: 25px;
+}
+.search_area input{
+    float: left;
+    width:80%;
+    background: #000;
+    color:#fff;
+    border: 0 solid;
+    padding:1%;
+}
+.search_area input[type="submit"]{
+    width: 17%;
+    float: right;
+    background: #000;
+    background-image: url(img/search.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.search_area input[type="text"]:focus{
+outline: none;
+}
+
+.main_header_area{
+    width: 100%;
+    clear: both;
+    padding-bottom: 20px;
+   
+}
+.inner_main_header_area{
+    overflow: hidden;
+}
+.logo_area{
+    width: 30%;
+    float: left;
+}
+.logo_area img{
+    height: 70px;
+
+}
+.menu_area{
+    float: right;
+    width: 70%;
+    margin-top: 27px;
+}
+.menu_area ul{
+    list-style: none;
+
+}
+.menu_area li{
+display: inline-block;
+margin-left:20px
+}
+.menu_area a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    display: block;
+}
+.menu_area a:hover{
+    color:#b9c4da;
+    transition: 0.5s;
+}
+.work_area{
+    width:100%;
+    clear:both;
+  
+}
+.inner_work_area{
+    overflow: hidden;
+}
+.image_area{
+width:100%;
+
+
+}
+.image_area img{
+    width: 100%;
+    max-width: 1000px;
+    height: 500px;
+    position: absolute;
+    top: 8px;
+    z-index: 1;
+    border-bottom: 7px solid #d9d9d9;
+
+}
+.contact_area{
+    width: 100%;
+    clear: both;
+    margin-top: 335px;
+ 
+ 
+}
+.inner_contact_area{
+    background: #e7e7e7;
+    padding: 20px 0;
+    display:flex;
+    
+}
+.text{
+width: 100%;
+clear: both;
+overflow: hidden;
+padding-left: 20px;
+}
+.text h1{
+    color:#29282d;
+ text-align: justify;
+ float: left;
+padding: 0;
+font-size: 30px;
+ line-height: 1em;
+}
+.contact{
+width: 80%;
+clear: both;
+padding-right: 20px;
+}
+.contact h1{
+float: right;
+background: #1f242a;
+padding: 20px;
+border: 0 solid;
+border-radius: 5px;
+}
+.contact a{
+    text-decoration: none;
+    color: #e0dade;
+}
+.contact h1:hover{
+background:rgb(175, 122, 122);
+color: red;
+transition: 0.5s;
+}
+.service_area{
+    width: 100%;
+    clear: both;
+    margin-bottom: 45px;
+}
+.inner_service_area{
+    display: flex;
+    padding: 50px 0;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.service_image{
+width:40%;
+margin-right: 25px;
+padding: 0;
+
+}
+.service_image img{
+    width: 120px;
+}
+.service_text{
+    color: #000;
+    margin-right: 25px;
+   
+}
+.service_text h3{
+    color: #c3c2c7;
+border-bottom: 1px solid rgb(138, 119, 119);
+margin-right: 68px;
+}
+.service_text p{
+    font-size: 13px;
+}
+.hero_area{
+    width:100%;
+    clear: both;
+ 
+}
+.inner_hero_area{
+
+}
+
+.facilis{
+    text-align: center;
+    color:#000;
+    padding-bottom: 20px;
+}
+.facilis h3{
+    font-size: 30px;
+}
